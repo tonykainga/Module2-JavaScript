@@ -32,10 +32,15 @@ console.log(d<a);
 console.log(b>=c);
 console.log(a<=c);
 
-// Equality Operators: =+(loose Equality) and ===(strict equality)
-
-
-
+// Equality Operators: ==(loose Equality) and ===(strict equality)
+console.log(6=="6");
+console.log(6==="6");
+// loose inequality(!=) & strict inequality (!==)
+console.log(10!=5)//true
+console.log(10!=="10")//true
+console.log(10!==10);//false
+console.log("Hello"==="World")//false
 
 
 // Logical operators help combine conditions.
+
