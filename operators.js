@@ -40,7 +40,10 @@ console.log("Hello"==="World");//false
 // Logical operators help combine conditions. (&&,||,!)
 console.log(true&&true);
 console.log(true&&false);
-console.log(true||false);
-console.log(false||false);
-console.log(!false);
-console.log(!true);
+console.log(true||false);//true
+console.log(false||false);//false
+console.log(!false);//true
+console.log(!true);//false
+let age=20;
+let hasID=true
+console.log(age>=18 && hasID);//true
