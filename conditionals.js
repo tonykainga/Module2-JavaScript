@@ -33,3 +33,24 @@ else if(score>=50){
 else{
     console.log("Fail")
 }
+
+
+
+// using logical operators in conditionals
+
+let age2=16;
+let hasID=true;
+
+if(age2>=18 && hasID){
+    console.log("Acess Granted")
+}
+else{
+    console.log("You are not allowed")
+}
+
+let isAdmin=true;
+let isTeacher=false
+
+if (isAdmin || isTeacher){
+    console.log("You may enter")
+}
