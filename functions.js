@@ -1,18 +1,40 @@
-// what is a function in JS
-// console.log("Welcome to class")
-// console.log("welcometo class")
-// console.log("welcome to class")
-//Syntax
+// // what is a function in JS
+// // console.log("Welcome to class")
+// // console.log("welcometo class")
+// // console.log("welcome to class")
+// //Syntax
 
-// function FunctionName(){
-//     block of code
+// // function FunctionName(){
+// //     block of code
+// // }
+// // Definfing a function 
+//  function greet(){
+//     console.log("Hello");
 // }
-// Definfing a function 
- function greet(){
-    console.log("Hello");
-}
 
-// CALLING A FUNCTION
-greet();
-greet();
-greet();
+// // CALLING A FUNCTION
+// greet();
+// greet();
+// greet();
+
+function introduce(){
+console.log("hello");
+console.log("My name is Tony");
+console.log("I am learning Javascript")
+}
+introduce();
+
+// // adding parameters in a fucntion 
+
+function greet (name){
+    console.log("hello " + name)
+}
+greet("Tony");
+greet("Sarabi");
+
+function introduce(name,age){
+    console.log("My name is "+name);
+    console.log(`I am ${age} years old`)
+}
+introduce("Tony" ,27);
+introduce("Rose" ,23);
