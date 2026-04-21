@@ -38,3 +38,14 @@ function introduce(name,age){
 }
 introduce("Tony" ,27);
 introduce("Rose" ,23);
+
+function sum(a,b,c,d,e){
+    console.log(a+b+c+d+e);
+}
+sum(2,7,34,90,56);
+function showName(){
+    console.log("Tony")
+    return "Tony"
+}
+let student=showName();
+console.log(student);
