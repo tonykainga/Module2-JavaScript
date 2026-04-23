@@ -25,3 +25,16 @@ if (true){
     let color= "blue";
     console.log(color)
 }
+//  nested scope
+
+let school = "code Academy";// Global variable
+function outerFunction(){
+    let teacher="Nancy";
+    function innerFunction(){
+        let student = "Alice";
+        console.log(school);
+        console.log(teacher);
+        console.log(student)
+    
+    }
+}
