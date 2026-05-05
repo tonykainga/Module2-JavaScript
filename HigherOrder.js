@@ -9,7 +9,7 @@ printValue(true);
 printValue("hello");
 
 function greet (name) {
-    console.log("Hello" + name);
+    console.log("Hello " + name);
 }
 
 function executeSomething(x){
